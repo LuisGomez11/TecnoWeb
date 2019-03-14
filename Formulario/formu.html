@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<div class="container">
+
+		<h2>ENCUESTA INFORMATICA</h2>
+
+		<div class="datosPersonales">
+			<p class="titulo"> Datos personales</p>
+			<div class="edad">
+				<label>Edad: </label>
+				<input type="number">
+			</div>
+			<div class="sexo">
+				<label>Sexo: </label>
+				<label>
+		            <input type="radio" name="sexo" value="Hombre"> Hombre
+		        </label>
+		        <label>
+		            <input type="radio" name="sexo" value="Mujer"> Mujer
+		        </label>
+			</div>
+			<div class="estudia">
+				<label>Estás estudiando: </label>
+				<select>
+					<option></option>
+					<option></option>
+				</select>
+			</div>
+		</div>
+		<div class="preguntasGenerales">
+			<p class="titulo"> Preguntas generales</p>
+			<div class="ordenador">
+				<label>¿Tienes ordenador en tu casa? </label>
+				<label>
+		            <input type="radio" name="opc" value="Si"> Si
+		        </label>
+		        <label>
+		            <input type="radio" name="opc" value="No"> No
+		        </label>
+			</div>
+			<div class="personas">
+				<label>¿Lo utilizas sólo tú o lo compartes con otras personas? </label>
+				<label>
+		            <input type="radio" name="opci" value="Propio"> Propio
+		        </label>
+		        <label>
+		            <input type="radio" name="opci" value="Compartido"> Compartido
+		        </label>
+			</div>
+			<div class="periodos">
+				<label>En periodos de clase:</label>
+				<ul>
+					<li>
+						<label>¿Cuantos dias a la semana sueles encender el ordenador?</label>
+						<select>
+							<option></option>
+							<option>Un dia</option>
+							<option>De dos a tres dias</option>
+							<option>De cuatro a seis dias</option>
+							<option>Todos los dias</option>
+						</select>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<label>¿Cuantas horas diarias sueles gastar el ordenador (cada dia)?</label>
+						<select>
+							<option></option>
+							<option>Una hora</option>
+							<option>De dos a diez horas</option>
+							<option>De once a veinte horas</option>
+							<option>Las veinticuatro horas</option>
+						</select>
+					</li>
+				</ul>
+			</div>
+			<div class="vacaciones">
+				<label>En periodos de vacaciones:</label>
+				<ul>
+					<li>
+						<label>¿Cuantos dias a la semana sueles encender el ordenador?</label>
+						<select>
+							<option></option>
+							<option>Un dia</option>
+							<option>De dos a tres dias</option>
+							<option>De cuatro a seis dias</option>
+							<option>Todos los dias</option>
+						</select>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<label>¿Cuantas horas diarias sueles gastar el ordenador (cada dia)?</label>
+						<select>
+							<option></option>
+							<option>Una hora</option>
+							<option>De dos a diez horas</option>
+							<option>De once a veinte horas</option>
+							<option>Las veinticuatro horas</option>
+						</select>
+					</li>
+				</ul>
+			</div>
+			<div class="dedicas">
+				<label>¿A que dedicas tu tiempo en el ordenador?</label>
+				<div class="check">
+					<table>
+						<tr>
+							<td>
+								<label>
+						            <input type="checkbox"> Escribir
+						        </label>
+							</td>
+							<td>
+								<label>
+						            <input type="checkbox"> Dibujar
+						        </label>
+							</td>
+							<td>
+								<label>
+						            <input type="checkbox"> Programar
+						        </label>
+							</td>
+							<td>
+								<label>
+						            <input type="checkbox"> Hacer musica
+						        </label>
+							</td>
+							<td>
+								<label>
+						            <input type="checkbox"> Retoque fotográfico
+						        </label>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label>
+						            <input type="checkbox"> Jugar
+						        </label>
+							</td>
+							<td>
+								<label>
+						            <input type="checkbox"> Ver páginas web
+						        </label>
+							</td>
+							<td>
+								<label>
+						            <input type="checkbox"> Chatear
+						        </label>
+							</td>
+							<td>
+								<label>
+						            <input type="checkbox"> Intercambiar música
+						        </label>
+							</td>
+							<td>
+								<label>
+						            <input type="checkbox"> Intercambiar peliculas/series
+						        </label>
+							</td>
+						</tr>
+			        </table><br>
+			        <label>Otras actividades (Especifica):</label>
+			        <input type="text">
+			        <input type="text">
+			        <input type="text">
+		        </div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

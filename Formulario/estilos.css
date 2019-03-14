@@ -1,0 +1,130 @@
+body{
+	font-family: tahoma;
+}
+
+.container{
+	margin: 40px 10px;
+
+}
+
+h2{
+	text-align: center;
+	letter-spacing: 5px;
+	color: #BFBBB9;
+	margin-bottom: 30px;
+}
+
+.datosPersonales{
+	border: gray 1px dashed;
+	height: 60px;
+}
+.datosPersonales .titulo{
+	color: white;
+	background-color: #BFBBB9;
+	width: 144px;
+	text-align: center;
+	font-size: 18px;
+	margin-left: 15px;
+	margin-top: -10px;
+}
+
+.datosPersonales .edad{
+	float: left;
+	width: 90px;
+	background-color: #EEEEEE;
+	margin-left: 15px;
+	margin-top: -7px;
+	padding: 2px 10px;
+}
+
+.datosPersonales .edad input{
+	width: 40px;
+}
+
+.datosPersonales .sexo{
+	float: left;
+	width: 200px;
+	background-color: #EEEEEE;
+	margin-left: 15px;
+	margin-top: -7px;
+	padding: 2px 10px;
+}
+
+.datosPersonales .estudia{
+	float: left;
+	width: 280px;
+	background-color: #EEEEEE;
+	margin-left: 15px;
+	margin-top: -7px;
+	padding: 2px 10px;
+}
+
+.datosPersonales .estudia select{
+	width: 150px;
+}
+
+.preguntasGenerales{
+	border: gray 1px dashed;
+	height: 470px;
+	margin-top: 30px;
+}
+.preguntasGenerales .titulo{
+	color: white;
+	background-color: #BFBBB9;
+	width: 170px;
+	text-align: center;
+	font-size: 18px;
+	margin-left: 15px;
+	margin-top: -10px;
+}
+
+.preguntasGenerales .ordenador{
+	
+	width: 930px;
+	background-color: #EEEEEE;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -7px;
+	padding: 2px 10px;
+}
+
+.preguntasGenerales .personas{
+	margin-top: 5px;
+	width: 930px;
+	background-color: #EEEEEE;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 2px 10px;
+}
+
+.preguntasGenerales .periodos{
+	margin-top: 5px;
+	width: 930px;
+	background-color: #EEEEEE;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 2px 10px;
+}
+
+.preguntasGenerales .vacaciones{
+	margin-top: 5px;
+	width: 930px;
+	background-color: #EEEEEE;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 2px 10px;
+}
+
+.preguntasGenerales .dedicas{
+	margin-top: 5px;
+	width: 930px;
+	background-color: #EEEEEE;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 2px 10px;
+	padding-bottom: 20px;
+}
+
+.preguntasGenerales .dedicas .check{
+	margin-top: 5px;
+}

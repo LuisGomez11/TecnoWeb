@@ -1,0 +1,43 @@
+p {
+	font-size: 30px;
+}
+
+.dotted{
+	border-style: dotted;
+	border-color: blue;
+}
+
+.dashed{
+	border-style: dashed;
+	border-color: red;
+}
+
+.solid{
+	border-style: solid;
+	border-color: yellow;
+}
+
+.double{
+	border-style: double;
+	border-color: green;
+}
+
+.groove{
+	border-style: groove;
+	border-color: pink;
+}
+
+.ridge{
+	border-style: ridge;
+	border-color: brown;
+}
+
+.inset{
+	border-style: inset;
+	border-color: purple;
+}
+
+.outset{
+	border-style: outset;
+	border-color: gray;
+}

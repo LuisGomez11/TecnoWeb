@@ -1,0 +1,1975 @@
+body{
+    font-family: arial;
+}
+
+.cabecera{
+    border: 1px solid;
+    width: 780px;
+    height: 130px;
+    border-radius: 15px;
+    -webkit-box-shadow: 4px 4px 0px 3px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 4px 0px 3px rgba(0,0,0,1);
+    box-shadow: 4px 4px 0px 3px rgba(0,0,0,1);
+    margin: auto;
+    
+}
+
+.cabecera img{
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.cabecera .titulo1{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.cabecera .receptora{
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 370px;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.cabecera .tit{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 30px;
+    margin-left: 79px;
+}
+
+.cabecera .persona{
+    position: absolute;
+    margin-top: 68px;
+    margin-left: 130px;
+    font-size: 16px;
+}
+
+.cabecera .inputCab{
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 370px;
+    border: 1px solid;
+    height: 26px;
+    width: 200px;
+}
+
+.cabecera .leyes{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 90px;
+    margin-left: 76px;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.datosPersonales{
+    margin: auto;
+    width: 780px;
+    height: 368px;
+    border: 1px solid;
+    margin-top: 85px;
+    background-color: #F1F9FB;
+    -webkit-box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+    box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+}
+
+.datosPersonales .num1{
+    position: absolute;
+    background-color: black;
+    width: 15px;
+    color: white;
+    padding: 2px 2px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: -39px;
+}
+
+.datosPersonales .titulo{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: -39px;
+    margin-left: 38px;
+    padding: 2px 24px;
+}
+
+.datosPersonales .linea{
+    position: absolute;
+    border: #3293AE 1.5px solid;
+    width: 50px;
+    margin-top: -28px;
+}
+
+.datosPersonales .contenedorDatos .apellido1{
+    float: left;
+    border: 1px solid;
+    width: 260px;
+    height: 60px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.datosPersonales .contenedorDatos .apellido2{
+    float: left;
+    border: 1px solid;
+    width: 260px;
+    height: 60px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.datosPersonales .contenedorDatos .nombres{
+    float: left;
+    border: 1px solid;
+    width: 254px;
+    height: 60px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.datosPersonales .contenedorDatos .doc{
+    float: left;
+    border: 1px solid;
+    width: 335px;
+    height: 60px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.datosPersonales .contenedorDatos .doc .radios{
+    margin-top: 28px;
+    margin-left: 7px;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .doc .radios .inp{
+    border: 0.5px solid;
+    width: 140px;
+    margin-left: 173px;
+}
+
+.datosPersonales .contenedorDatos .sexo{
+    float: left;
+    border: 1px solid;
+    width: 100px;
+    height: 60px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.datosPersonales .contenedorDatos .sexo .radios{
+    margin-top: 28px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .nacio{
+    float: left;
+    border: 1px solid;
+    width: 339px;
+    height: 60px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.datosPersonales .contenedorDatos .nacio .pais{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 4px;
+}
+
+.datosPersonales .contenedorDatos .nacio .inp{
+    border: 0.5px solid;
+    width: 145px;
+    margin-left: 173px;
+    margin-top: -1px;
+}
+
+.datosPersonales .contenedorDatos .nacio .radios{
+    margin-top: 28px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .libreta{
+    float: left;
+    border: 1px solid;
+    width: 778px;
+    height: 60px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+
+
+.datosPersonales .contenedorDatos .libreta .radios{
+    float: left;
+    margin-top: 28px;
+    margin-left: 7px;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .libreta .numero{
+    float: left;
+    margin-top: 28px;
+    margin-left: 25px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .libreta .numero .inp{
+    border: 0.5px solid;
+    width: 190px;
+    margin-left: 70px;
+    margin-top: 16px;
+}
+
+.datosPersonales .contenedorDatos .libreta .dm{
+    float: left;
+    margin-top: 28px;
+    margin-left: 25px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .libreta .dm .inp{
+    border: 0.5px solid;
+    width: 145px;
+    margin-left: 50px;
+    margin-top: 16px;
+}
+
+.datosPersonales .contenedorDatos .nacimiento{
+    float: left;
+    border: 1px solid;
+    width: 335px;
+    height: 180px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.datosPersonales .contenedorDatos .nacimiento .completar{
+    font-style: normal;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 7px;
+    height: 143px;
+}
+
+.datosPersonales .contenedorDatos .nacimiento .completar .dia{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+.datosPersonales .contenedorDatos .nacimiento .completar .dia .sepDia{
+    border: none;
+    border-right: 0.5px solid;
+    height: 6px;
+    width: 18px;
+
+}
+
+
+
+.datosPersonales .contenedorDatos .nacimiento .completar .dia .texto{
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .nacimiento .completar .mes{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: 106px;
+}
+
+.datosPersonales .contenedorDatos .nacimiento .completar .mes .sepMes{
+    border: none;
+    border-right: 0.5px solid;
+    height: 6px;
+    width: 18px;
+
+}
+
+.datosPersonales .contenedorDatos .nacimiento .completar .mes .texto{
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .nacimiento .completar .año{
+    position: absolute;
+    border: 1px solid;
+    width: 70px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: 180px;
+}
+
+.datosPersonales .contenedorDatos .nacimiento .completar .año .sepAño1{
+    border: none;
+    border-right: 0.5px solid;
+    height: 6px;
+    width: 15px;
+
+}
+
+.datosPersonales .contenedorDatos .nacimiento .completar .año .sepAño2{
+    border: none;
+    border-right: 0.5px solid;
+    height: 6px;
+    width: 35px;
+
+}
+
+.datosPersonales .contenedorDatos .nacimiento .completar .año .sepAño3{
+    border: none;
+    border-right: 0.5px solid;
+    height: 6px;
+    width: 55px;
+
+}
+
+.datosPersonales .contenedorDatos .nacimiento .completar .año .texto{
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .nacimiento .completar .separador1{
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid;
+    width: 170px;
+    margin-left: 6px;
+    margin-top: 8px;
+}
+
+.datosPersonales .contenedorDatos .direccion{
+    float: left;
+    border: 1px solid;
+    width: 441px;
+    height: 180px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.datosPersonales .contenedorDatos .direccion .linea1{
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid;
+    width: 300px;
+    margin-left: 6px;
+    margin-top: 55px;
+}
+
+.datosPersonales .contenedorDatos .direccion .pais{
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 76px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .direccion .linea2{
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid;
+    width: 170px;
+    margin-left: 44px;
+    margin-top: 89px;
+}
+
+.datosPersonales .contenedorDatos .direccion .municipio{
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 112px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .direccion .linea3{
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid;
+    width: 180px;
+    margin-left: 78px;
+    margin-top: 126px;
+}
+
+.datosPersonales .contenedorDatos .direccion .telefono{
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 146px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .direccion .linea4{
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid;
+    width: 140px;
+    margin-left: 78px;
+    margin-top: 162px;
+}
+
+.datosPersonales .contenedorDatos .direccion .departamento{
+    position: absolute;
+    margin-left: 237px;
+    margin-top: 76px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .direccion .linea5{
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid;
+    width: 140px;
+    margin-left: 291px;
+    margin-top: 89px;
+}
+
+.datosPersonales .contenedorDatos .direccion .correo{
+    position: absolute;
+    margin-left: 237px;
+    margin-top: 146px;
+    font-style: normal;
+}
+
+.datosPersonales .contenedorDatos .direccion .linea6{
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid;
+    width: 140px;
+    margin-left: 291px;
+    margin-top: 162px;
+}
+
+.datosPersonales .contenedorDatos label{
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 4px;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.formacion{
+    margin: auto;
+    width: 780px;
+    height: 690px;
+    border: 1px solid;
+    margin-top: 85px;
+    background-color: #F1F9FB;
+    -webkit-box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+    box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+}
+
+.formacion .num2{
+    position: absolute;
+    background-color: black;
+    width: 15px;
+    color: white;
+    padding: 2px 2px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: -39px;
+}
+
+.formacion .titulo{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: -39px;
+    margin-left: 38px;
+    padding: 2px 24px;
+}
+
+.formacion .linea{
+    position: absolute;
+    border: #3293AE 1.5px solid;
+    width: 50px;
+    margin-top: -28px;
+}
+
+.formacion .contenedorFormacion .titulo1{
+    position: absolute;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.formacion .contenedorFormacion .oracion{
+    position: absolute;
+    font-size: 13px;
+    margin-top: 29px;
+    margin-left: 7px;
+    width: 780px;
+}
+
+.formacion .contenedorFormacion .tabla1{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 720px;
+    height: 92px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.formacion .contenedorFormacion .tabla1 .tit1{
+
+    float: left;
+    border: none;
+    width: 360px;
+    height: 25px;
+    padding-top: 5px;
+    text-align: center;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    font-style: italic;
+    background-color: #D9F0F6;
+    border-radius: 21px 0 0 0;
+    font-size: 14px;
+
+}
+
+.formacion .contenedorFormacion .tabla1 .tit2{
+
+    float: left;
+    border: none;
+    width: 356px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 3px;
+    border-bottom: 1px solid;
+    font-style: italic;
+    border-radius: 0 19px 0 0;
+    font-size: 13px;
+
+}
+
+.formacion .contenedorFormacion .tabla1 .prim{
+    text-align: center;
+    float: left;
+    border: none;
+    width: 160px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 3px;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    font-style: italic;
+    font-size: 13px;
+    background-color: #D9F0F6;
+}
+
+.formacion .contenedorFormacion .tabla1 .secu{
+    text-align: center;
+    float: left;
+    border: none;
+    width: 129px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 3px;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    font-style: italic;
+    font-size: 13px;
+    background-color: #D9F0F6;
+}
+
+.formacion .contenedorFormacion .tabla1 .media{
+    text-align: center;
+    float: left;
+    border: none;
+    width: 60px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 3px;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    font-style: italic;
+    font-size: 13px;
+    background-color: #D9F0F6;
+}
+
+.formacion .contenedorFormacion .tabla1 .grado{
+
+    float: left;
+    border: none;
+    width: 356px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 3px;
+    border-bottom: 1px solid;
+    font-style: italic;
+    font-size: 13px;
+    background-color: #D9F0F6;
+}
+
+.formacion .contenedorFormacion .tabla1 .primPeque{
+    float: left;
+    border: none;
+    width: 29px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 3px;
+    border-right: 1px solid;
+    border-radius: 0 0 0 19px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.formacion .contenedorFormacion .tabla1 .primPeque1{
+    float: left;
+    border: none;
+    width: 28px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 3px;
+    border-right: 1px solid;
+    border-radius: 0 0 0 19px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.formacion .contenedorFormacion .tabla1 .primPeque2{
+    float: left;
+    border: none;
+    width: 30px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 3px;
+    border-right: 1px solid;
+    border-radius: 0 0 0 19px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.formacion .contenedorFormacion .tabla1 .primPeque3{
+    float: left;
+    border: none;
+    width: 27px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 3px;
+    border-right: 1px solid;
+    border-radius: 0 0 0 19px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.formacion .contenedorFormacion .tabla1 .mes{
+    float: left;
+    border: 1px solid;
+    width: 35px;
+    height: 18px;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+.formacion .contenedorFormacion .tabla1 .mes .texto{
+    margin-left: -50px;
+}
+
+.formacion .contenedorFormacion .tabla1 .año{
+    float: left;
+    border: 1px solid;
+    width: 75px;
+    height: 18px;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+.formacion .contenedorFormacion .tabla1 .año .sepAño11{
+    border: none;
+    border-right: 0.5px solid;
+    height: 6px;
+    width: 16px;
+    margin-top: -5px;
+}
+
+.formacion .contenedorFormacion .tabla1 .año .sepAño12{
+    border: none;
+    border-right: 0.5px solid;
+    height: 6px;
+    width: 36px;
+    margin-top: -6px;
+}
+
+.formacion .contenedorFormacion .tabla1 .año .sepAño13{
+    border: none;
+    border-right: 0.5px solid;
+    height: 5px;
+    width: 56px;
+    margin-top: -6px;
+}
+
+.formacion .contenedorFormacion .tabla1 .año .texto{
+    margin-left: -50px;
+}
+
+.formacion .contenedorFormacion .separador{
+    position: absolute;
+    border: 1px solid;
+    width: 780px;
+    margin-top: 190px;
+}
+
+.formacion .contenedorFormacion .titulo2{
+    position: absolute;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 200px;
+    margin-left: 7px;
+}
+
+.formacion .contenedorFormacion .oracion2{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 224px;
+    margin-left: 7px;
+}
+
+.formacion .contenedorFormacion .modalidades{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 245px;
+    margin-left: 7px;
+    width: 790px;
+}
+
+.formacion .contenedorFormacion .oracion3{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 290px;
+    margin-left: 7px;
+}
+
+.formacion .contenedorFormacion .tablaModa{
+    position: absolute;
+    border-collapse: collapse;
+    width: 782px;
+    margin-top: 320px;
+    margin-left: -1px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.formacion .contenedorFormacion .tablaModa td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 6px;
+}
+
+.formacion .contenedorFormacion .tablaModa .cabecera1 {
+    background-color: #D9F0F6;
+}
+
+.formacion .contenedorFormacion .tablaModa .cabecera11 {
+    background-color: #D9F0F6;
+    width: 100px;
+}
+
+.formacion .contenedorFormacion .tablaModa .datosModa {
+    height: 28px;
+}
+
+.formacion .contenedorFormacion .separador2{
+    position: absolute;
+    border: 0.5px solid;
+    width: 780px;
+    margin-top: 515px;
+}
+
+.formacion .contenedorFormacion .oracion4{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 530px;
+    margin-left: 7px;
+    margin-right: 7px;
+    width: 750px;
+}
+
+.formacion .contenedorFormacion .tablaIdioma{
+    position: absolute;
+    border-collapse: collapse;
+    width: 550px;
+    margin-top: 560px;
+    margin-left: 100px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.formacion .contenedorFormacion .tablaIdioma td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 6px;
+}
+
+.formacion .contenedorFormacion .tablaIdioma .idioma{
+    width: 250px;
+}
+
+.formacion .contenedorFormacion .tablaIdioma .cabecera2 {
+    background-color: #D9F0F6;
+}
+
+.formacion .contenedorFormacion .tablaIdioma .datosIdioma {
+    height: 28px;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.experiencia{
+    margin: auto;
+    max-width: 780px;
+    height: 830px;
+    border: 1px solid;
+    margin-top: 85px;
+    background-color: #F1F9FB;
+    -webkit-box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+    box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+}
+
+.experiencia .num3{
+    position: absolute;
+    background-color: black;
+    width: 15px;
+    color: white;
+    padding: 2px 2px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: -39px;
+}
+
+.experiencia .titulo{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: -39px;
+    margin-left: 38px;
+    padding: 2px 24px;
+}
+
+.experiencia .linea{
+    position: absolute;
+    border: #3293AE 1.5px solid;
+    width: 50px;
+    margin-top: -28px;
+}
+
+.experiencia .contenedorExperiencia .oracion{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 29px;
+    margin-left: 7px;
+}
+
+.experiencia .contenedorExperiencia .titulo1{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 75px;
+    border: none;
+    width: 780px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    background-color: #D9F0F6;
+    font-style: italic;
+    text-align: center;
+}
+
+.experiencia .contenedorExperiencia .cont1{
+    position: absolute;
+    margin-top: 92px;
+    border: none;
+}
+
+.experiencia .contenedorExperiencia .fila1{
+    float: left;
+    width: 100%;
+}
+.experiencia .contenedorExperiencia .fila2{
+    float: left;
+    width: 100%;
+}
+.experiencia .contenedorExperiencia .fila3{
+    float: left;
+    width: 100%;
+}
+.experiencia .contenedorExperiencia .fila4{
+    float: left;
+    width: 100%;
+}
+
+.experiencia .contenedorExperiencia .cont1 .empresa{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 360px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .publica{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 70px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .privada{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 70px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .pais{
+    float: left;
+    border:none;
+    border-bottom: 1px solid;
+    width: 229px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .departamento{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 249px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .municipio{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 249px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .correo{
+    float: left;
+    border:none;
+    border-bottom: 1px solid;
+    width: 244px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .telefono{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 249px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaIngreso{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 245px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+    text-align: center;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaIngreso .dia{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 27px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaIngreso .dia .texto{
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaIngreso .mes{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 97px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaIngreso .mes .texto{
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaIngreso .año{
+    position: absolute;
+    border: 1px solid;
+    width: 70px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 169px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaIngreso .año .texto{
+    position: absolute;
+    margin-left: -65px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaRetiro{
+    float: left;
+    border:none;
+    border-bottom: 1px solid;
+    width: 248px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+    text-align: center;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaRetiro .dia{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 27px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaRetiro .dia .texto{
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaRetiro .mes{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 97px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaRetiro .mes .texto{
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaRetiro .año{
+    position: absolute;
+    border: 1px solid;
+    width: 70px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 169px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .fechaRetiro .año .texto{
+    position: absolute;
+    margin-left: -65px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont1 .cargo{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 249px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .dependencia{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 245px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont1 .direccion{
+    float: left;
+    border:none;
+    border-bottom: 1px solid;
+    width: 248px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .titulo2{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 327px;
+    border: none;
+    width: 780px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    background-color: #D9F0F6;
+    font-style: italic;
+    text-align: center;
+}
+
+.experiencia .contenedorExperiencia .cont2{
+    position: absolute;
+    margin-top: 344px;
+    border: none;
+}
+
+.experiencia .contenedorExperiencia .cont2 .empresa{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 360px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .publica{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 70px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .privada{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 70px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .pais{
+    float: left;
+    border:none;
+    border-bottom: 1px solid;
+    width: 229px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .departamento{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 249px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .municipio{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 249px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .correo{
+    float: left;
+    border:none;
+    border-bottom: 1px solid;
+    width: 244px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .telefono{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 249px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaIngreso{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 245px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+    text-align: center;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaIngreso .dia{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 27px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaIngreso .dia .texto{
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaIngreso .mes{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 97px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaIngreso .mes .texto{
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaIngreso .año{
+    position: absolute;
+    border: 1px solid;
+    width: 70px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 169px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaIngreso .año .texto{
+    position: absolute;
+    margin-left: -65px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaRetiro{
+    float: left;
+    border:none;
+    border-bottom: 1px solid;
+    width: 248px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+    text-align: center;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaRetiro .dia{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 27px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaRetiro .dia .texto{
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaRetiro .mes{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 97px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaRetiro .mes .texto{
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaRetiro .año{
+    position: absolute;
+    border: 1px solid;
+    width: 70px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 169px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .fechaRetiro .año .texto{
+    position: absolute;
+    margin-left: -65px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont2 .cargo{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 249px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .dependencia{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 245px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont2 .direccion{
+    float: left;
+    border:none;
+    border-bottom: 1px solid;
+    width: 248px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .titulo3{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 579px;
+    border: none;
+    width: 780px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    background-color: #D9F0F6;
+    font-style: italic;
+    text-align: center;
+}
+
+.experiencia .contenedorExperiencia .cont3{
+    position: absolute;
+    margin-top: 596px;
+    border: none;
+}
+
+.experiencia .contenedorExperiencia .cont3 .empresa{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 360px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .publica{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 70px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .privada{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 70px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .pais{
+    float: left;
+    border:none;
+    border-bottom: 1px solid;
+    width: 229px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .departamento{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 249px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .municipio{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 249px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .correo{
+    float: left;
+    border:none;
+    border-bottom: 1px solid;
+    width: 244px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .telefono{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 249px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaIngreso{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 245px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+    text-align: center;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaIngreso .dia{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 27px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaIngreso .dia .texto{
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaIngreso .mes{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 97px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaIngreso .mes .texto{
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaIngreso .año{
+    position: absolute;
+    border: 1px solid;
+    width: 70px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 169px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaIngreso .año .texto{
+    position: absolute;
+    margin-left: -65px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaRetiro{
+    float: left;
+    border:none;
+    border-bottom: 1px solid;
+    width: 248px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+    text-align: center;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaRetiro .dia{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 27px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaRetiro .dia .texto{
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaRetiro .mes{
+    position: absolute;
+    border: 1px solid;
+    width: 35px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 97px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaRetiro .mes .texto{
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaRetiro .año{
+    position: absolute;
+    border: 1px solid;
+    width: 70px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 169px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .fechaRetiro .año .texto{
+    position: absolute;
+    margin-left: -65px;
+    margin-top: 2px;
+    font-style: normal;
+}
+
+.experiencia .contenedorExperiencia .cont3 .cargo{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 249px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .dependencia{
+    float: left;
+    border:none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 245px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.experiencia .contenedorExperiencia .cont3 .direccion{
+    float: left;
+    border:none;
+    border-bottom: 1px solid;
+    width: 248px;
+    height: 52px;
+    font-style: italic;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.tiempo{
+    margin: auto;
+    width: 780px;
+    height: 310px;
+    border: 1px solid;
+    margin-top: 85px;
+    background-color: #F1F9FB;
+    -webkit-box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+    box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+}
+
+.tiempo .num4{
+    position: absolute;
+    background-color: black;
+    width: 15px;
+    color: white;
+    padding: 2px 2px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: -39px;
+}
+
+.tiempo .titulo{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: -39px;
+    margin-left: 38px;
+    padding: 2px 24px;
+}
+
+.tiempo .linea{
+    position: absolute;
+    border: #3293AE 1.5px solid;
+    width: 50px;
+    margin-top: -28px;
+}
+
+.tiempo .contenedorTiempo .oracion1{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+
+
+.tiempo .contenedorTiempo .tablaOcupacion{
+    position: absolute;
+    border-collapse: collapse;
+    width: 550px;
+    margin-top: 55px;
+    margin-left: 110px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.tiempo .contenedorTiempo .tablaOcupacion td, th {
+    border: 1px solid black;
+    
+    padding: 6px;
+}
+
+.tiempo .contenedorTiempo .tablaOcupacion .ocupacion{
+    width: 320px;
+}
+
+.tiempo .contenedorTiempo .tablaOcupacion .cabecera3 {
+    background-color: #D9F0F6;
+    text-align: center;
+}
+
+.tiempo .contenedorTiempo .tablaOcupacion .datosOcupacion {
+    height: 43px;
+    text-align: left;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.servidor{
+    margin: auto;
+    width: 780px;
+    height: 280px;
+    border: 1px solid;
+    margin-top: 85px;
+    background-color: #F1F9FB;
+    -webkit-box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+    box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+}
+
+.servidor .num5{
+    position: absolute;
+    background-color: black;
+    width: 15px;
+    color: white;
+    padding: 2px 2px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: -39px;
+}
+
+.servidor .titulo{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: -39px;
+    margin-left: 38px;
+    padding: 2px 24px;
+}
+
+.servidor .linea{
+    position: absolute;
+    border: #3293AE 1.5px solid;
+    width: 50px;
+    margin-top: -28px;
+}
+
+.servidor .contenedorServidor .oracion{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 7px;
+    line-height: 18px;
+    width: 780px;
+}
+
+.servidor .contenedorServidor .diligencia{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 160px;
+    margin-left: 7px;
+    font-style: italic;
+}
+
+.servidor .contenedorServidor .linea{
+    position: absolute;
+    border: 0.5px solid;
+    width: 510px;
+    margin-top: 175px;
+    margin-left: 240px;
+}
+
+.servidor .contenedorServidor .firma{
+    position: absolute;
+    border: none;
+    border-top: 1px solid;
+    margin-top: 244px;
+    margin-left: 220px;
+    padding-top: 3px;
+    width: 300px;
+    height: 30px;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.observaciones{
+    margin: auto;
+    width: 780px;
+    height: 300px;
+    border: 1px solid;
+    margin-top: 85px;
+    margin-bottom: 30px;
+    background-color: #F1F9FB;
+    -webkit-box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+    box-shadow: 9px 9px 0px -1px rgba(0,0,0,1);
+}
+
+.observaciones .num6{
+    position: absolute;
+    background-color: black;
+    width: 15px;
+    color: white;
+    padding: 2px 2px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: -39px;
+}
+
+.observaciones .titulo{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: -39px;
+    margin-left: 38px;
+    padding: 2px 24px;
+}
+
+.observaciones .linea{
+    position: absolute;
+    border: #3293AE 1.5px solid;
+    width: 50px;
+    margin-top: -28px;
+}
+
+.observaciones .contenedorObservaciones .cuadro{
+    border: 1px solid;
+    border-radius: 10px;
+    margin: auto;
+    width: 720px;
+    height: 130px;
+    margin-top: 20px;
+}
+ 
+.observaciones .contenedorObservaciones .oracion1{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+    line-height: 18px;
+}
+
+.observaciones .contenedorObservaciones .oracion2{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 28px;
+    margin-left: 15px;
+    line-height: 18px;
+}
+
+.observaciones .contenedorObservaciones .ciudad{
+    position: absolute;
+    border: none;
+    border-top: 1px solid;
+    margin-top: 105px;
+    margin-left: 10px;
+    padding-top: 3px;
+    width: 360px;
+    height: 30px;
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+}
+
+.observaciones .contenedorObservaciones .firma{
+    position: absolute;
+    border: none;
+    border-top: 1px solid;
+    margin-top: 105px;
+    margin-left: 380px;
+    padding-top: 3px;
+    width: 380px;
+    height: 30px;
+    font-size: 12px;
+    font-style: italic;
+    text-align: left;
+}
