@@ -1,0 +1,83 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-image: url("../img/back2.jpg");
+	background-size: cover;
+}
+
+.fondoFormu{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 800px;
+	height: 350px;
+	border: 1px solid #fff;
+	background-color: rgba(255,255,255,.5);
+}
+
+.fondoFormu .contenedor{
+	position: absolute;
+	top: 50%;
+	left: 61%;
+	transform: translate(-5%,-50%);
+	width: 300px;
+	height: 300px;
+}
+
+.fondoFormu .contenedor .titulo{
+	font-size: 30px;
+}
+
+.fondoFormu .contenedor .descripcion{
+	font-size: 18px;
+}
+
+.formu {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-85%,-50%);
+	width: 400px;
+	height: 480px;
+	background-color: rgb(255,255,255);
+	text-align: center;
+	box-sizing: border-box;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+.formu .titulo{
+	font-size: 40px;
+}
+
+label {
+	cursor: auto;
+}
+
+input[type=text] {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 80%;
+	padding: 10px 12px;
+	border-radius: 10px;
+	outline: none;
+	border: 1px solid black;
+}
+
+input[type=submit] {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 80%;
+	padding: 10px 8px;
+	border-radius: 10px;
+	outline: none;
+	border: 1px solid black;
+	background-color: lightblue;
+}
+
+input[type=submit]:hover{
+	cursor: pointer;
+}
