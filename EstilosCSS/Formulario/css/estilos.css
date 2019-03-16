@@ -46,7 +46,6 @@ body{
 	text-align: center;
 	box-sizing: border-box;
 	padding: 15px;
-	border-radius: 20px;
 }
 
 .formu .titulo{
@@ -62,7 +61,6 @@ input[type=text] {
 	margin-bottom: 10px;
 	width: 80%;
 	padding: 10px 12px;
-	border-radius: 10px;
 	outline: none;
 	border: 1px solid black;
 }
